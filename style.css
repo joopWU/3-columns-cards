@@ -1,0 +1,154 @@
+ /* font-family: 'Big Shoulders Display', cursive;
+
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    width: 307px;
+    height: 500px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+
+}
+.orange {
+    background-color: #E28625;
+}
+
+.light-green {
+    background-color: #006971;
+}
+
+.dark-green {
+    background-color: #004140;
+}
+.logo {
+    margin-top: 48px;
+}
+
+.heading {
+    margin-top: 35px;
+}
+.heading h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47.88px;
+    color: #F2F2F2;
+}
+
+.text {
+    margin-top: 25px;
+}
+.text p {
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+color: #ffffff;
+opacity: 0.75;
+
+}
+
+.button {
+    margin-top: 83px;
+}
+
+.button a {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 25px;
+    
+    padding: 11px 31.5px;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+}
+
+.orange-a {
+   
+    color: #E28625;
+}
+
+.orange-a:hover {
+    cursor: pointer;
+    background-color: #E28625;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.light-green-a {
+color: #006971;
+}
+
+.light-green-a:hover {
+    cursor: pointer;
+    background-color: #006971;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.dark-green-a {
+color: #004140;
+}
+
+.dark-green-a:hover {
+    background-color: #004140;
+    cursor: pointer;
+    
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+
+@media (max-width: 350px) {
+    .container {
+        flex-direction: column;
+        width: 95%;
+        height: 100%;
+        margin-top: 10px;
+        
+        
+    }
+
+    .card {
+        margin-bottom: 5px;
+        justify-content: space-around;
+        height: 445px;
+        width: auto;
+        
+    }
+
+    .text p {
+        width: 80%;
+    }
+
+    .button {
+        margin-top: 30px;
+        margin-bottom: 48px;
+    }
+
+    
+    
+    
+
+}
+
+    
