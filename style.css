@@ -1,7 +1,4 @@
- /* font-family: 'Big Shoulders Display', cursive;
 
-font-family: 'Lexend Deca', sans-serif;
-*/
 
 body {
     display: flex;
@@ -51,6 +48,7 @@ body {
     font-size: 40px;
     line-height: 47.88px;
     color: #F2F2F2;
+    text-transform: uppercase;
 }
 
 .text {
